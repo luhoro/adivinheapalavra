@@ -1,0 +1,15 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: linear-gradient(180deg, #e7e1e1 0%, #c2bbbb 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}

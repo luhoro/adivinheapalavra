@@ -1,0 +1,32 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.start h1 {
+  font-size: 2.5rem;
+}
+
+.start p {
+  color: #714b94;
+}
+
+button {
+  padding: 8px 40px;
+  border: none;
+  background-color: #714b94;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: #48226b;
+}
