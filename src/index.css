@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Preahvihear&display=swap');
 
-html, body {
+html,
+body {
   min-height: 100%;
 }
 
@@ -9,9 +10,10 @@ body {
   background: linear-gradient(180deg, #e7e1e1 0%, #c2bbbb 100%);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Preahvihear', sans-serif;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 * {
@@ -19,4 +21,17 @@ h1, h2 {
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+}
+
+button {
+  padding: .8rem 2.4rem;
+  border: none;
+  background-color: #714b94;
+  color: #ffffff;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 300ms;
 }
