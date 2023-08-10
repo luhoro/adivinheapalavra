@@ -10,3 +10,4 @@ export const wordsList = {
   Esporte: [ "Basquete", "Vôlei", "Futebol", "Handball", "Natação", "Ciclismo", "Corrida", "Tênis", "Tênis de mesa", "Futsal",],
   Vestuário: ["Calça", "Blusa", "Camisa", "Camiseta", "Tênis", "Meia", "Óculos", "Pulseira", "Colar", "Vestido", "Saia", "Meia-calça", "Bota", "Luva" ]
 }
+

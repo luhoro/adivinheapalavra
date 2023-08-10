@@ -24,6 +24,8 @@
 
 .game h2 {
   font-size: 2.2rem;
+  line-height: 1.3em;
+  margin: 1.2rem 0;
 }
 
 .tip  {
@@ -39,11 +41,12 @@
 }
 
 .wordContainer {
-  margin: .5rem;
+  margin: 1rem 0;
   padding: .9rem;
   background-color: #ffffff90;
   border-radius: .8rem;
   display: flex;
+  flex-wrap: wrap;
   gap: .8rem;
   box-shadow: 0 0 20px #c0c0c0;
 }
@@ -54,12 +57,11 @@
   justify-content: center;
   font-size: 2rem;
   line-height: 0.8;
-  width: 3.3rem;
-  height: 3.3rem;
+  width: 3rem;
+  height: 3rem;
   border: .2rem solid #714b94b7;
   border-radius: .5rem;
   background-color: #ffffff;
-  padding: .6rem;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -107,5 +109,40 @@
   font-size: 1.2rem;
   margin: .3rem .2rem 0 .2rem;
   font-weight: bold;
+
+}
+
+@media(max-width: 770px) {
+  .wordContainer {
+    gap: .4rem;
+    padding: .5rem;
+  }
+
+  .letter, .blankSquare, .disabled {
+    font-size: 1.6rem;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+
+
+@media(max-width: 480px) {
+  .wordContainer {
+    gap: .2rem;
+    padding: .3rem;
+  }
+
+  .disabled {
+    font-size: 1.2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .letter, .blankSquare {
+    font-size: 1.2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: .16rem solid #714b94b7;
+  }
 
 }
